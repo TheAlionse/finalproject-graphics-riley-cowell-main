@@ -32,7 +32,7 @@ void main()
     
     vec4 tempPos = projection * view * model * vec4(position, 1.0f);
     
-    gl_Position = vec4(tempPos.x, tempPos.y + (sin(position.x + time)*2), tempPos.z, tempPos.w);
+    gl_Position = vec4(tempPos.x, tempPos.y + (sin(position.x + time)*2 + (cos((position.z + time)*.5))), tempPos.z, tempPos.w);
 
     myNormal = normals;
     // Transform normal into world space
