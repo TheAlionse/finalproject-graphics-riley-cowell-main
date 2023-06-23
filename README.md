@@ -1,5 +1,5 @@
 # Stylized Water Shader
-## Final Project for Computer Graphics class
+### Final Project for Computer Graphics class
 
 Description of the project:
 https://www.youtube.com/watch?v=ZDxE6JPiKrA&feature=youtu.be 
