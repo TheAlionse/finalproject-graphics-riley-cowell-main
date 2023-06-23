@@ -6,7 +6,7 @@ Simple Water Shader built using OpenGL
 Description of the project:
 https://www.youtube.com/watch?v=ZDxE6JPiKrA&feature=youtu.be 
 
-Run using a build.py
+Run using 'python3 build.py'
 
 Wrote fragment and vertex shaders in C++ to create a stylized water demonstration
 Changed vertex positions across sin and cos waves and then adjusted the final color of the texture based on those positions
